@@ -1,6 +1,6 @@
 /*  Header  */
 
-.headerContainer {
+.container {
     position: relative;
     width: 100%;
     height: 93px;
@@ -11,7 +11,7 @@
     display: inline-flex;
 }
 
-.headerTitle {
+.title {
     font-weight: 700;
     font-size: 36px;
     line-height: 43px;
@@ -21,7 +21,7 @@
     margin-left: 17px;
 }
 
-.containerButtonsHeader {
+.containerButtons {
     position: absolute;
     right: 0;
     height: 100%;
@@ -29,7 +29,7 @@
     align-items: center;
 }
 
-.linkHeader {
+.link {
     margin-left: 28px;
     margin-right: 28px;
     justify-content: center;
@@ -52,11 +52,11 @@
     transition: background-size 400ms;
 }
 
-.linkHeader:focus, .linkHeader:hover {
+.link:focus, .link:hover {
     color: #9908C9;
 }
 
-.buttonHeader {
+.button {
     margin-left: 28px;
     margin-right: 28px;
     background-color: transparent;
@@ -71,57 +71,21 @@
     transition: all .4s;
 }
 
-.buttonHeader:hover {
+.button:hover {
     cursor: pointer;
     color: #fff;
     background-color: #9908C9;
 }
 
-.linkHeader:hover,
-.linkHeader:focus {
+.link:hover,
+.link:focus {
     background-size: 0 0.1em, 100% 0.1em;
 }
 
 @media (max-width: 1200px) {
-    .containerButtonsHeader{
+    .containerButtons{
         display: none;
     }    
 }
 
 /*  End Header  */
-
-/* Footer */
-
-.footerContainer {
-  background-color: #2a2a2a;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  padding-left: 20px;
-  padding-right: 20px;
-  position: absolute;
-  align-items: center;
-  width: 100%;
-  bottom: 0;
-}
-
-.footerTitle {
-  color: #FFFFFF;
-  font-weight: 500;
-  font-size: 20px;
-  text-transform: uppercase;
-}
-
-.footerSubContainer {
-  display: grid;  
-  margin-right: 30px;
-  grid-template-columns: 60% 50%;
-  color: #FFFFFF;
-}
-
-.footerSubContainer p {
-  text-decoration: underline;
-  cursor: pointer;
-}
-
-/* End Footer */

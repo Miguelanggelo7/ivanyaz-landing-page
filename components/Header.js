@@ -1,16 +1,16 @@
-import styles from '../styles/Home.module.css'
+import styles from '../styles/Header.module.css'
 
 export default function Header() {
   return (
-    <div className={styles.headerContainer}>
-      <p className={styles.headerTitle}>IvanYaz</p>
-      <div className={styles.containerButtonsHeader}>
-        <a className={styles.linkHeader}>Sobre mi</a>
-        <a className={styles.linkHeader}>Servicios</a>
-        <a className={styles.linkHeader}>Portafolios</a>
-        <a className={styles.linkHeader}>Testimonios</a>
-        <a className={styles.linkHeader}>Mi equipo</a>
-        <button className={styles.buttonHeader}>
+    <div className={styles.container}>
+      <p className={styles.title}>IvanYaz</p>
+      <div className={styles.containerButtons}>
+        <a className={styles.link}>Sobre mi</a>
+        <a className={styles.link}>Servicios</a>
+        <a className={styles.link}>Portafolios</a>
+        <a className={styles.link}>Testimonios</a>
+        <a className={styles.link}>Mi equipo</a>
+        <button className={styles.button}>
             Asesoría gratuita
         </button>
       </div>
