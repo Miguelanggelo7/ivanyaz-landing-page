@@ -26,6 +26,68 @@
 .containerButtonsHeader {
     position: absolute;
     right: 0;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.linkHeader {
+    margin-left: 28px;
+    margin-right: 28px;
+    justify-content: center;
+    align-self: center;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #3E3E3F;
+    cursor: pointer;
+    text-decoration: none;
+
+    background: 
+    linear-gradient(to right, #fff, #fff),
+    linear-gradient(to right, #9908C9,#9908C9,#9908C9);
+    background-size: 100% 0.1em, 0 0.1em;
+    background-position: 100% 100%, 0 100%;
+    background-repeat: no-repeat;
+    transition: background-size 400ms;
+}
+
+.linkHeader:focus, .linkHeader:hover {
+    color: #9908C9;
+}
+
+.buttonHeader {
+    margin-left: 28px;
+    margin-right: 28px;
+    background-color: transparent;
+    border: 2px solid #9908C9;
+    color: #9908C9;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    padding: 12px 20px;
+    transition: all .4s;
+}
+
+.buttonHeader:hover {
+    cursor: pointer;
+    color: #fff;
+    background-color: #9908C9;
+}
+
+.linkHeader:hover,
+.linkHeader:focus {
+    background-size: 0 0.1em, 100% 0.1em;
+}
+
+@media (max-width: 1200px) {
+    .containerButtonsHeader{
+        display: none;
+    }    
 }
 
 /*  End Header  */
