@@ -1,10 +1,10 @@
-import styles from '../styles/Home.module.css'
+import styles from '../styles/Footer.module.css'
 
 export default function Header() {
   return (
-    <div className={styles.footerContainer}>
-      <p className={styles.footerTitle} >IvanYaz</p>
-      <div className={styles.footerSubContainer}>
+    <div className={styles.container}>
+      <p className={styles.title} >IvanYaz</p>
+      <div className={styles.subContainer}>
         <p>Politicas de privacidad</p>
         <p>Politicas de cookies</p>
       </div>
