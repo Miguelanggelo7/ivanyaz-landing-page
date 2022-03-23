@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Header from '../components/Header'
 import Footer from '../components/Footer'
 import ContactMe from '../components/ContactMe'
+import Banner from '../components/Banner'
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
 
       <main>
         <Header />
+        <Banner/>
       </main>
 
       <footer>
