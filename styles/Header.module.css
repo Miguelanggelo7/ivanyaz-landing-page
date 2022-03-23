@@ -56,6 +56,15 @@
     color: #9908C9;
 }
 
+.menuIcon{
+    position: absolute;
+    right: 0;
+    margin-right: 17px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+} 
+
 .button {
     margin-left: 28px;
     margin-right: 28px;
@@ -87,5 +96,12 @@
         display: none;
     }    
 }
+
+@media (min-width: 1200.1px) {
+    .menuIcon{
+        display: none;
+    }    
+}
+
 
 /*  End Header  */

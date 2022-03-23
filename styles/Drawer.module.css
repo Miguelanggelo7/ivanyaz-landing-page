@@ -1,0 +1,43 @@
+.container{
+    width: 60vw;
+}
+
+.textItem{
+    margin: auto;
+
+    justify-content: center;
+    align-self: center;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #3E3E3F;
+}
+
+.item{
+    height: 100px;
+}
+
+.button {
+    background-color: transparent;
+    border: 2px solid #9908C9;
+    color: #9908C9;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    padding: 12px 20px;
+    transition: all .4s;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    height: auto;
+}
+
+.button:hover {
+    cursor: pointer;
+    color: #fff;
+    background-color: #9908C9;
+}
