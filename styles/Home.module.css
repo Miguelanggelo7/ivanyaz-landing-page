@@ -37,21 +37,29 @@
   justify-content: space-between;
   padding-left: 20px;
   padding-right: 20px;
-  position: relative;
+  position: absolute;
+  align-items: center;
+  width: 100%;
+  bottom: 0;
 }
 
 .footerTitle {
   color: #FFFFFF;
+  font-weight: 500;
+  font-size: 20px;
   text-transform: uppercase;
 }
 
 .footerSubContainer {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  position: absolute;
-  right: 0;
+  display: grid;  
+  margin-right: 30px;
+  grid-template-columns: 60% 50%;
   color: #FFFFFF;
+}
+
+.footerSubContainer p {
+  text-decoration: underline;
+  cursor: pointer;
 }
 
 /* End Footer */
