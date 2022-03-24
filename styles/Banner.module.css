@@ -75,7 +75,7 @@
     color: #9908C9;
 }
 
-@media (max-height: 610px) {
+@media (max-height: 620px) {
     .imgdeIvan{
         display: none;
     }    
