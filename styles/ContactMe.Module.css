@@ -2,7 +2,8 @@
   background: linear-gradient(111.35deg, #1E48AC 4.43%, #9908C9 81.88%);
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-evenly;
+  align-items: center;
   padding-bottom: 25px;
   padding-top: 20px;
 }
@@ -10,20 +11,29 @@
 .title {
   font-weight: 620;
   font-size: 48px;
+  margin: 0;
 }
 
 .button {
   background-color: #FFFFFF;
   width: auto;
   border: none;
-  padding: 7px;
   margin-bottom: 50px;
+  color: #bac4dd;
+  padding: 0 0 0 20px;
+  color: #1E48AC;
+}
+
+.button p{
+  margin: 0;
+  font-weight: 600;
+  font-size: medium;
+  padding: 13px 25px 13px 10px;
 }
 
 .socialContainer {
   color: #FFFFFF;
-  width: 60%;
-  padding: 30px 0 0 200px;
+  /* padding: 30px 0 0 250px; */
 }
 
 .socialContainer a{
@@ -34,8 +44,17 @@
   margin-bottom: 15px;
 }
 
+.socialContainer a  p{
+  margin: 0;
+}
+
+.socialContainer a p:hover{
+  text-decoration: underline;
+}
+
 .icons {
   font-size: 45px;
+  margin-right: 7px;
 }
 
 .child, .button {
@@ -51,3 +70,10 @@
   flex-direction: column;
 }
 
+@media (max-width: 800px) {
+  .titlesContainer {
+
+  }
+
+    
+}

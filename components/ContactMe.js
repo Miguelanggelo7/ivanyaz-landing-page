@@ -10,23 +10,25 @@ export default function Header() {
   return (
     <div className={styles.container}>
       <div className={styles.socialContainer}>
-        <p className={styles.title}>Contactame</p>
-        <p>Y empecemos a llevar a cabo tus ideas.</p>
+        <div className={styles.titlesContainer}>
+          <p className={styles.title}>Contactame</p>
+          <p>Y empecemos a llevar a cabo tus ideas.</p>
+        </div>
         <button className={styles.button}>
           <WhatsAppIcon />
-          Ir a Whatsapp
+          <p>Ir a Whatsapp</p>
         </button>
         <div className={styles.tiktok_instagram}>
-          <a className={styles.child}><i class='fab fa-tiktok fa-2x'></i> @ivanyaz</a>
-          <a className={styles.child}><InstagramIcon className={styles.icons}/> @ivanyaz </a>
+          <a className={styles.child}><i class='fab fa-tiktok fa-2x' style={{marginLeft: "7px", marginRight: "7px"}}></i>@<p>ivanyaz</p></a>
+          <a className={styles.child} style={{marginLeft: "20px"}} ><InstagramIcon className={styles.icons}/>@<p>ivanyaz</p></a>
         </div>
         <div className={styles.facebook_telegram}>
-          <a className={styles.child}><FacebookIcon className={styles.icons} /> /IvanDeJesusYanez</a>
-          <a className={styles.child}><TelegramIcon className={styles.icons} /> t.me/VenezolanosEnAlemania</a>
+          <a className={styles.child}><FacebookIcon className={styles.icons} /><p>/IvanDeJesusYanez</p></a>
+          <a className={styles.child}><TelegramIcon className={styles.icons} /><p>t.me/VenezolanosEnAlemania</p></a>
         </div>
       </div>
       <div className={styles.imageContainer}>
-        <Image src={phoneImg} className={styles.image}/>
+        <Image src={phoneImg} height={600} />
       </div>
     </div>
   )
