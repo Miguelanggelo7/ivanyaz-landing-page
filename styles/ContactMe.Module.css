@@ -1,3 +1,53 @@
 .container {
-  background-color:blueviolet;
+  background: linear-gradient(111.35deg, #1E48AC 4.43%, #9908C9 81.88%);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-bottom: 25px;
+  padding-top: 20px;
 }
+
+.title {
+  font-weight: 620;
+  font-size: 48px;
+}
+
+.button {
+  background-color: #FFFFFF;
+  width: auto;
+  border: none;
+  padding: 7px;
+  margin-bottom: 50px;
+}
+
+.socialContainer {
+  color: #FFFFFF;
+  width: 60%;
+  padding: 30px 0 0 200px;
+}
+
+.socialContainer a{
+  color: #FFFFFF;
+  font-size: 20px;
+  text-decoration: none;
+  font-weight: 100;
+  margin-bottom: 15px;
+}
+
+.icons {
+  font-size: 45px;
+}
+
+.child, .button {
+  display: inline-flex;
+  vertical-align: text-bottom;
+  box-sizing: inherit;
+  text-align: center;
+  align-items: center;
+}
+
+.facebook_telegram {
+  display: flex;
+  flex-direction: column;
+}
+
