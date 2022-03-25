@@ -96,6 +96,16 @@
     .containerButtons{
         display: none;
     }    
+    .container{
+        margin-top: -27px;
+        display: block;
+    }
+    .title{
+        padding-top: 23px;
+    }
+    .menuIcon{
+        margin-top: -104px;
+    }
 }
 
 @media (min-width: 1200.1px) {

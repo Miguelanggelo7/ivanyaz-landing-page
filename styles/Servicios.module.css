@@ -95,7 +95,6 @@
     .servicesSub1{
         font-size: 18px;
         line-height: 22px;
-        width: 252px;
         text-align: center;
     }
 
@@ -107,3 +106,9 @@
 
 }
 
+@media (max-width: 330px) {
+    .card{
+        width: 100%;
+    }
+
+}
