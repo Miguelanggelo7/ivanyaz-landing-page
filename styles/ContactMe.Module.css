@@ -17,6 +17,10 @@
   margin: 0;
 }
 
+.subTitle {
+  font-size: 24px ;
+}
+
 .button {
   background-color: #FFFFFF;
   width: auto;
