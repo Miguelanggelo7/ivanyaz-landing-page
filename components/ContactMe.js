@@ -13,7 +13,7 @@ export default function Header() {
         <p className={styles.title}>Contactame</p>
         <p className={styles.subTitle} >Y empecemos a llevar a cabo tus ideas.</p>
         <div className={styles.smallImageContainer}>
-          <Image src={phoneImg} height={400} width={300}/>
+          <Image src={phoneImg} height={500} width={300}/>
         </div>
         <button className={styles.button}>
           <WhatsAppIcon />
