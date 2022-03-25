@@ -8,6 +8,10 @@
   padding-top: 20px;
 }
 
+.smallImageContainer {
+  display: none;
+}
+
 .title {
   font-weight: 620;
   font-size: 48px;
@@ -71,9 +75,29 @@
 }
 
 @media (max-width: 800px) {
-  .titlesContainer {
-
+  .container {
+    text-align: center;
   }
 
-    
+  .title {
+    display: inline-block;
+  }
+
+  .subTitle {
+    margin-top: 0;
+    padding-top: 0;
+  }
+
+  .facebook_telegram {
+    align-items: center;
+  }
+
+  .bigImageContainer {
+    display: none;
+  }
+  
+  .smallImageContainer {
+    display: block;
+    margin-bottom: 20px;
+  }
 }

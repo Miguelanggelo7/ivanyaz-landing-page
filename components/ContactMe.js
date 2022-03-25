@@ -10,24 +10,27 @@ export default function Header() {
   return (
     <div className={styles.container}>
       <div className={styles.socialContainer}>
-        <div className={styles.titlesContainer}>
-          <p className={styles.title}>Contactame</p>
-          <p>Y empecemos a llevar a cabo tus ideas.</p>
+        <p className={styles.title}>Contactame</p>
+        <p className={styles.subTitle} >Y empecemos a llevar a cabo tus ideas.</p>
+        <div className={styles.smallImageContainer}>
+          <Image src={phoneImg} height={400} width={300}/>
         </div>
         <button className={styles.button}>
           <WhatsAppIcon />
           <p>Ir a Whatsapp</p>
         </button>
-        <div className={styles.tiktok_instagram}>
-          <a className={styles.child}><i class='fab fa-tiktok fa-2x' style={{marginLeft: "7px", marginRight: "7px"}}></i>@<p>ivanyaz</p></a>
-          <a className={styles.child} style={{marginLeft: "20px"}} ><InstagramIcon className={styles.icons}/>@<p>ivanyaz</p></a>
-        </div>
-        <div className={styles.facebook_telegram}>
-          <a className={styles.child}><FacebookIcon className={styles.icons} /><p>/IvanDeJesusYanez</p></a>
-          <a className={styles.child}><TelegramIcon className={styles.icons} /><p>t.me/VenezolanosEnAlemania</p></a>
+        <div className={styles.iconsContainer}>
+          <div className={styles.tiktok_instagram}>
+            <a className={styles.child}><i class='fab fa-tiktok fa-2x' style={{marginLeft: "7px", marginRight: "7px"}}></i>@<p>ivanyaz</p></a>
+            <a className={styles.child} style={{marginLeft: "20px"}} ><InstagramIcon className={styles.icons}/>@<p>ivanyaz</p></a>
+          </div>
+          <div className={styles.facebook_telegram}>
+            <a className={styles.child}><FacebookIcon className={styles.icons} /><p>/IvanDeJesusYanez</p></a>
+            <a className={styles.child}><TelegramIcon className={styles.icons} /><p>t.me/VenezolanosEnAlemania</p></a>
+          </div>
         </div>
       </div>
-      <div className={styles.imageContainer}>
+      <div className={styles.bigImageContainer}>
         <Image src={phoneImg} height={600} />
       </div>
     </div>
