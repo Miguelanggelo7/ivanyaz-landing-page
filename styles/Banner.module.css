@@ -82,6 +82,14 @@
 }
 
 @media (max-width: 1090px) {
+    .container{
+        background-position: 10%;
+    }
+
+    .imgdeIvan{
+        margin-left: -20px;
+    }
+
     .containerText{
         width: 95%;
     }    
@@ -104,6 +112,13 @@
 
     .ivan{
         opacity: 0.4;
+    }
+
+}
+
+@media (max-width: 360px) {
+    .imgdeIvan{
+        width: 100%;
     }
 
 }
