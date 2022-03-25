@@ -1,0 +1,44 @@
+.container {
+  background-color: #FFFFFF;
+  text-align: center;
+}
+
+.title {
+  margin-bottom: 30px;
+  font-size: 36px;
+  color: #9908C9;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.membersContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+}
+
+.member {
+  margin-bottom: 15px;
+}
+
+.member:last-child {
+  margin-bottom: 0;
+}
+
+.member p {
+  margin: 0;
+}
+
+.name {
+  color: #2A2A2A;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.role {
+  color: #9908C9;
+  font-size: 18px;
+  font-weight: 300;
+}

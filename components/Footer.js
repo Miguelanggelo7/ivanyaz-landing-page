@@ -1,6 +1,6 @@
 import styles from '../styles/Footer.module.css'
 
-export default function Header() {
+export default function Footer() {
   return (
     <div className={styles.container}>
       <p className={styles.title} >IvanYaz</p>

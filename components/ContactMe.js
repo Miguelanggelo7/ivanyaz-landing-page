@@ -6,7 +6,7 @@ import TelegramIcon from '@mui/icons-material/Telegram'
 import Image from 'next/image'
 import phoneImg from '../public/phone-image.png'
 
-export default function Header() {
+export default function ContactMe() {
   return (
     <div className={styles.container}>
       <div className={styles.socialContainer}>
@@ -21,7 +21,7 @@ export default function Header() {
         </button>
         <div className={styles.iconsContainer}>
           <div className={styles.tiktok_instagram}>
-            <a className={styles.child}><i class='fab fa-tiktok fa-2x' style={{marginLeft: "7px", marginRight: "7px"}}></i>@<p>ivanyaz</p></a>
+            <a className={styles.child}><i className='fab fa-tiktok fa-2x' style={{marginLeft: "7px", marginRight: "7px"}}></i>@<p>ivanyaz</p></a>
             <a className={styles.child} style={{marginLeft: "20px"}} ><InstagramIcon className={styles.icons}/>@<p>ivanyaz</p></a>
           </div>
           <div className={styles.facebook_telegram}>
