@@ -27,6 +27,12 @@
   color: #1E48AC;
 }
 
+.button:hover {
+  background-color: #BDBDBD;
+  transition: 0.4s;
+  cursor: pointer;
+}
+
 .button p{
   margin: 0;
   font-weight: 600;
@@ -53,6 +59,7 @@
 
 .socialContainer a p:hover{
   text-decoration: underline;
+  cursor: pointer;
 }
 
 .icons {
