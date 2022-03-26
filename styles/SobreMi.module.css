@@ -1,0 +1,27 @@
+.container{
+    background-color: #E5E5E5;
+    display: inline-flex;
+    width: 100%;
+}
+
+.img, .contImg{
+    width: 590px;
+}
+
+.contText{
+    width: 50%;
+}
+
+.title{
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 43px;
+    color: #2A2A2A;
+}
+
+.subTitle{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #9908C9;
+}

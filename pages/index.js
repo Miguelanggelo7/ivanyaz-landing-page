@@ -4,6 +4,7 @@ import Footer from '../components/Footer'
 import ContactMe from '../components/ContactMe'
 import Banner from '../components/Banner'
 import Servicios from '../components/Servicios'
+import SobreMi from '../components/SobreMi'
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
         <Header />
         <Banner/>
         <Servicios/>
+        <SobreMi/>
       </main>
 
       <footer>
