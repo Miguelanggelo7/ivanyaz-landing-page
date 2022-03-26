@@ -3,7 +3,8 @@ import Header from '../components/Header'
 import Footer from '../components/Footer'
 import ContactMe from '../components/ContactMe'
 import Banner from '../components/Banner'
-import Servicios from '../components/Servicios'
+import Services from '../components/Servicios'
+import Clients from '../components/Clients'
 import Team from '../components/Team'
 
 export default function Home() {
@@ -17,9 +18,10 @@ export default function Home() {
 
       <main>
         <Header />
-        <Banner />
-        <Servicios />
+        <Banner/>
+        <Services/>
         <Team />
+        <Clients />
       </main>
 
       <footer>
