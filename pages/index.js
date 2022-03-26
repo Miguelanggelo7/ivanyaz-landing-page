@@ -3,7 +3,8 @@ import Header from '../components/Header'
 import Footer from '../components/Footer'
 import ContactMe from '../components/ContactMe'
 import Banner from '../components/Banner'
-import Servicios from '../components/Servicios'
+import Services from '../components/Servicios'
+import Clients from '../components/Clients'
 
 export default function Home() {
   return (
@@ -17,7 +18,8 @@ export default function Home() {
       <main>
         <Header />
         <Banner/>
-        <Servicios/>
+        <Services/>
+        <Clients />
       </main>
 
       <footer>
