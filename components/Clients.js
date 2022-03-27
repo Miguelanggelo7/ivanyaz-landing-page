@@ -9,11 +9,11 @@ import client5 from '../public/logo-5.png'
 export default function Clients() {
   return (
     <div className={styles.container}>
-      <Image src={client1} className={styles.image} height={100}/>
-      <Image src={client2} className={styles.image}/>
-      <Image src={client3} className={styles.image}/>
-      <Image src={client4} className={styles.image}/>
-      <Image src={client5} className={styles.image}/>
+      <div className={styles.image}><Image src={client1} /></div>
+      <div className={styles.image}><Image src={client2} /></div>
+      <div className={styles.image}><Image src={client3} /></div>
+      <div className={styles.image}><Image src={client4} /></div>
+      <div className={styles.image}><Image src={client5} /></div>
     </div>
   )
 }
