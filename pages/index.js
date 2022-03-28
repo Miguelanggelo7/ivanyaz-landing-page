@@ -1,13 +1,14 @@
-import Head from 'next/head'
-import Header from '../components/Header'
-import Footer from '../components/Footer'
-import ContactMe from '../components/ContactMe'
-import Banner from '../components/Banner'
-import Services from '../components/Servicios'
-import Clients from '../components/Clients'
-import Team from '../components/Team'
-import Proyects from '../components/Proyects'
-import SobreMi from '../components/SobreMi'
+import Head from "next/head";
+import Header from "../components/Header";
+import Footer from "../components/Footer";
+import ContactMe from "../components/ContactMe";
+import Banner from "../components/Banner";
+import Services from "../components/Servicios";
+import Clients from "../components/Clients";
+import Team from "../components/Team";
+import Proyects from "../components/Proyects";
+import AboutMe from "../components/AboutMe";
+import Testimonios from '../components/Testimonios';
 
 export default function Home() {
   return (
@@ -20,12 +21,13 @@ export default function Home() {
 
       <main>
         <Header />
-        <Banner/>
-        <Services/>
-        <SobreMi/>
+        <Banner />
+        <Services />
+        <AboutMe />
         <Team />
         <Clients />
         <Proyects />
+        <Testimonios />
       </main>
 
       <footer>
@@ -33,5 +35,5 @@ export default function Home() {
         <Footer />
       </footer>
     </div>
-  )
+  );
 }

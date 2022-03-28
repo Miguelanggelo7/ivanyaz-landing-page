@@ -1,114 +1,112 @@
-.container{
-    margin-top: -20px;
-    background-color: #1E48AC;
-    position: relative;
-    z-index: 100;
-    padding-bottom: 1px;
+.container {
+  margin-top: -20px;
+  background-color: #1e48ac;
+  position: relative;
+  z-index: 100;
+  padding-bottom: 1px;
 }
 
-.gridServices{
-    display: grid;
-    grid-template-columns: repeat(auto-fill, 300px);
-    gap: 40px;
-    padding: 40px;
-    justify-content: center;
+.gridServices {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 300px);
+  gap: 40px;
+  padding: 40px;
+  justify-content: center;
 }
 
-.card{
-    list-style: none;
-    text-align: center;
-    width: 288px;
-    height: 283px;
-    margin: auto;
-    color: #fff;
+.card {
+  list-style: none;
+  text-align: center;
+  width: 288px;
+  height: 283px;
+  margin: auto;
+  color: #fff;
 }
 
-.img{
-    width: 128px;
-    height: 128px;
+.img {
+  width: 128px;
+  height: 128px;
 }
 
-.title{
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 29px;
-    margin-bottom: 8px;
+.title {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  margin-bottom: 8px;
 }
 
-.subTitle{
-    font-weight: 300;
-    font-size: 18px;
-    line-height: 22px;
-    display: inline-flex;
-    margin-top: -20px;
+.subTitle {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 22px;
+  display: inline-flex;
+  margin-top: -20px;
 }
 
-.servicesTitle{
-    font-weight: 700;
-    font-size: 48px;
-    line-height: 58px;
-    color: #AD39D4;
-    display: inline-flex;
+.servicesTitle {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 58px;
+  color: #ad39d4;
+  display: inline-flex;
 }
 
-.containerTitle{
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
+.containerTitle {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
 }
 
-.servicesSub1{
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 29px;
-    text-transform: uppercase;
-    color: #FFFFFF;
-    margin-bottom: -20px;
-    margin-left: 16px;
+.servicesSub1 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-bottom: -20px;
+  margin-left: 16px;
 }
 
-.servicesSub2{
-    font-weight: 300;
-    font-size: 18px;
-    line-height: 22px;
-    color: #FFFFFF;
-    margin-left: 16px;
+.servicesSub2 {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 22px;
+  color: #ffffff;
+  margin-left: 16px;
 }
 
 @media (max-width: 600px) {
-    .gridServices{
-        grid-template-columns: 100%;
-    }    
+  .gridServices {
+    grid-template-columns: 100%;
+  }
 
-    .servicesTitle{
-        font-size: 36px;
-        line-height: 43px;
-        color: #AD39D4;
-    }
+  .servicesTitle {
+    font-size: 36px;
+    line-height: 43px;
+    color: #ad39d4;
+  }
 
-    .containerSubTitle{
-        display: inline-flex;
-        margin-top: -30px;
-    }
+  .containerSubTitle {
+    display: inline-flex;
+    margin-top: -30px;
+  }
 
-    .servicesSub1{
-        font-size: 18px;
-        line-height: 22px;
-        text-align: center;
-    }
+  .servicesSub1 {
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+  }
 
-    .servicesSub2{
-        font-size: 14px;
-        line-height: 17px;
-        margin-top: 20px;
-    }
-
+  .servicesSub2 {
+    font-size: 14px;
+    line-height: 17px;
+    margin-top: 20px;
+  }
 }
 
 @media (max-width: 330px) {
-    .card{
-        width: 100%;
-    }
-
+  .card {
+    width: 100%;
+  }
 }

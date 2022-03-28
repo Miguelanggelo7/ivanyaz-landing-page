@@ -1,5 +1,5 @@
 .container {
-  background-color: #ECECEC;
+  background-color: #ececec;
   text-align: center;
   padding-bottom: 40px;
 }
@@ -9,7 +9,7 @@
 }
 
 .title {
-  color: #1E48AC;
+  color: #1e48ac;
   padding-top: 30px;
   padding-bottom: 30px;
   text-transform: uppercase;
@@ -19,7 +19,7 @@
 
 .subContainer {
   display: grid;
-  row-gap: 40px;  
+  row-gap: 40px;
   column-gap: 20px;
   grid-template-columns: repeat(3, 1fr);
   justify-items: center;
@@ -27,7 +27,7 @@
 }
 
 .proyects {
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   width: fit-content;
 }
 
@@ -35,13 +35,13 @@
 }
 
 .proyectName {
-  color: #1E48AC;
+  color: #1e48ac;
   font-weight: 400;
   font-size: 18px;
 }
 
 .proyectRole {
-  color: #2A2A2A;
+  color: #2a2a2a;
   font-size: 18px;
   font-weight: 300;
   padding-bottom: 10px;
@@ -51,7 +51,6 @@
   .subContainer {
     grid-template-columns: repeat(2, 1fr);
     column-gap: 0;
-    
   }
 }
 
