@@ -6,6 +6,7 @@ import Banner from '../components/Banner'
 import Services from '../components/Servicios'
 import Clients from '../components/Clients'
 import Team from '../components/Team'
+import Proyects from '../components/Proyects'
 
 export default function Home() {
   return (
@@ -22,6 +23,7 @@ export default function Home() {
         <Services/>
         <Team />
         <Clients />
+        <Proyects />
       </main>
 
       <footer>
