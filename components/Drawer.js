@@ -1,9 +1,9 @@
-import SwipeableDrawer from '@mui/material/SwipeableDrawer';
-import Divider from '@mui/material/Divider';
-import ListItem from '@mui/material/ListItem';
-import styles from '../styles/Drawer.module.css'
+import SwipeableDrawer from "@mui/material/SwipeableDrawer";
+import Divider from "@mui/material/Divider";
+import ListItem from "@mui/material/ListItem";
+import styles from "../styles/Drawer.module.css";
 
-export default function Drawer({open, onOpen, onClose, setOpen}) {
+export default function Drawer({ open, onOpen, onClose, setOpen }) {
   return (
     <>
       <SwipeableDrawer
@@ -48,12 +48,12 @@ export default function Drawer({open, onOpen, onClose, setOpen}) {
           >
             <p className={styles.textItem}>Mi equipo</p>
           </ListItem>
-          <Divider style={{margin: '20px'}}/>
+          <Divider style={{ margin: "20px" }} />
           <button className={styles.button} onClick={() => setOpen(false)}>
-              Asesoría gratuita
+            Asesoría gratuita
           </button>
         </div>
       </SwipeableDrawer>
     </>
-  )
+  );
 }

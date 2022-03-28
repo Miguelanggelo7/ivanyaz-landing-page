@@ -7,7 +7,7 @@ import Services from "../components/Servicios";
 import Clients from "../components/Clients";
 import Team from "../components/Team";
 import Proyects from "../components/Proyects";
-import SobreMi from "../components/SobreMi";
+import AboutMe from "../components/AboutMe";
 import Testimonios from '../components/Testimonios';
 
 export default function Home() {
@@ -23,7 +23,7 @@ export default function Home() {
         <Header />
         <Banner />
         <Services />
-        <SobreMi />
+        <AboutMe />
         <Team />
         <Clients />
         <Proyects />

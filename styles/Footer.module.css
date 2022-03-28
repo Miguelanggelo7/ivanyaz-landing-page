@@ -12,17 +12,17 @@
 }
 
 .title {
-  color: #FFFFFF;
+  color: #ffffff;
   font-weight: 500;
   font-size: 20px;
   text-transform: uppercase;
 }
 
 .subContainer {
-  display: grid;  
+  display: grid;
   margin-right: 30px;
   grid-template-columns: 60% 50%;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .subContainer p {
@@ -39,7 +39,7 @@
   }
 
   .subContainer {
-    color: #FFFFFF;
+    color: #ffffff;
     display: flex;
     flex-direction: column;
     margin: 0;

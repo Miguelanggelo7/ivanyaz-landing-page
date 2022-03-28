@@ -1,5 +1,5 @@
 .container {
-  background: linear-gradient(111.35deg, #1E48AC 4.43%, #9908C9 81.88%);
+  background: linear-gradient(111.35deg, #1e48ac 4.43%, #9908c9 81.88%);
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
@@ -19,26 +19,26 @@
 }
 
 .subTitle {
-  font-size: 24px ;
+  font-size: 24px;
 }
 
 .button {
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   width: auto;
   border: none;
   margin-bottom: 50px;
   color: #bac4dd;
   padding: 0 0 0 20px;
-  color: #1E48AC;
+  color: #1e48ac;
 }
 
 .button:hover {
-  background-color: #BDBDBD;
+  background-color: #bdbdbd;
   transition: 0.4s;
   cursor: pointer;
 }
 
-.button p{
+.button p {
   margin: 0;
   font-weight: 600;
   font-size: medium;
@@ -46,23 +46,23 @@
 }
 
 .socialContainer {
-  color: #FFFFFF;
+  color: #ffffff;
   /* padding: 30px 0 0 250px; */
 }
 
-.socialContainer a{
-  color: #FFFFFF;
+.socialContainer a {
+  color: #ffffff;
   font-size: 20px;
   text-decoration: none;
   font-weight: 100;
   margin-bottom: 15px;
 }
 
-.socialContainer a  p{
+.socialContainer a p {
   margin: 0;
 }
 
-.socialContainer a p:hover{
+.socialContainer a p:hover {
   text-decoration: underline;
   cursor: pointer;
 }
@@ -72,7 +72,8 @@
   margin-right: 7px;
 }
 
-.child, .button {
+.child,
+.button {
   display: inline-flex;
   vertical-align: text-bottom;
   box-sizing: inherit;
@@ -97,7 +98,7 @@
 
   .subTitle {
     padding-top: 0;
-    padding: 0 10px 0 10px
+    padding: 0 10px 0 10px;
   }
 
   .facebook_telegram {
@@ -107,7 +108,7 @@
   .bigImageContainer {
     display: none;
   }
-  
+
   .smallImageContainer {
     display: block;
     margin-bottom: 20px;
