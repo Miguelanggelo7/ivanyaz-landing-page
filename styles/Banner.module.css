@@ -75,12 +75,6 @@
     color: #9908C9;
 }
 
-@media (max-height: 620px) {
-    .imgdeIvan{
-        display: none;
-    }    
-}
-
 @media (max-width: 1090px) {
     .container{
         background-position: 10%;
@@ -119,6 +113,7 @@
 @media (max-width: 360px) {
     .imgdeIvan{
         width: 100%;
+
     }
 
 }
