@@ -7,6 +7,7 @@ import Services from '../components/Servicios'
 import Clients from '../components/Clients'
 import Team from '../components/Team'
 import Proyects from '../components/Proyects'
+import SobreMi from '../components/SobreMi'
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
       <main>
         <Header />
         <Banner/>
+        <SobreMi/>
         <Services/>
         <Team />
         <Clients />
