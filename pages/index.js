@@ -8,6 +8,7 @@ import Clients from '../components/Clients'
 import Team from '../components/Team'
 import Proyects from '../components/Proyects'
 import SobreMi from '../components/SobreMi'
+import Testimonios from '../components/Testimonios'
 
 export default function Home() {
   return (
@@ -26,6 +27,7 @@ export default function Home() {
         <Team />
         <Clients />
         <Proyects />
+        <Testimonios />
       </main>
 
       <footer>
