@@ -21,8 +21,8 @@ export default function Home() {
       <main>
         <Header />
         <Banner/>
-        <SobreMi/>
         <Services/>
+        <SobreMi/>
         <Team />
         <Clients />
         <Proyects />
