@@ -18,37 +18,37 @@ export default function Testimonios() {
         <Carousel defaultWait={7000}>
           <Fade>
             <p className={styles.textTestimonio}>
-              "Este es el testimonio de la persona 1"
+              &ldquo;Este es el testimonio de la persona 1&ldquo;
             </p>
             <Image src={testPerson} className={styles.person} />
             <p className={styles.name}>persona 1</p>
           </Fade>
           <Fade>
             <p className={styles.textTestimonio}>
-              "Este es el
+              &ldquo;Este es el
               tesasdflaksjdfñlsdajflñsadkjfasñdlkfjañsdlfkjsadñfjksdañlfkjasdñflkadsjñlaksdfjñadlskfjasdlktimonio
-              de la persona 2"
+              de la persona 2&ldquo;
             </p>
             <Image src={testPerson} className={styles.person} />
             <p className={styles.name}>persona 2</p>
           </Fade>
           <Fade>
             <p className={styles.textTestimonio}>
-              "Este es el testimonio de la persona 3"
+              &ldquo;Este es el testimonio de la persona 3&ldquo;
             </p>
             <Image src={testPerson} className={styles.person} />
             <p className={styles.name}>persona 3</p>
           </Fade>
           <Fade>
             <p className={styles.textTestimonio}>
-              "Este es el testimonio de la persona 4"
+              &ldquo;Este es el testimonio de la persona 4&ldquo;
             </p>
             <Image src={testPerson} className={styles.person} />
             <p className={styles.name}>persona 4</p>
           </Fade>
           <Fade>
             <p className={styles.textTestimonio}>
-              "Este es el testimonio de la persona 5"
+              &ldquo;Este es el testimonio de la persona 5&ldquo;
             </p>
             <Image src={testPerson} className={styles.person} />
             <p className={styles.name}>persona 5</p>
