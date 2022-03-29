@@ -43,7 +43,7 @@ export default function ContactMe() {
               href="https://www.instagram.com/ivanyaz/"
               rel="noopener noreferrer"
             >
-              <InstagramIcon className={styles.icons} />@<p>ivanyaz</p>
+              <InstagramIcon className={styles.icons} fontSize="large" />@<p>ivanyaz</p>
             </a>
           </div>
           <div className={styles.facebook_telegram}>
@@ -53,7 +53,7 @@ export default function ContactMe() {
               href="https://www.facebook.com/IvanDeJesusYanez"
               rel="noopener noreferrer"
             >
-              <FacebookIcon className={styles.icons} />
+              <FacebookIcon className={styles.icons} fontSize="large" />
               <p>/IvanDeJesusYanez</p>
             </a>
             <a
@@ -62,7 +62,7 @@ export default function ContactMe() {
               href="https://t.me/VenezolanosEnAlemania"
               rel="noopener noreferrer"
             >
-              <TelegramIcon className={styles.icons} />
+              <TelegramIcon className={styles.icons} fontSize="large" />
               <p>t.me/VenezolanosEnAlemania</p>
             </a>
           </div>
