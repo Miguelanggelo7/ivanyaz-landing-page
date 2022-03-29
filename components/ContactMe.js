@@ -28,7 +28,8 @@ export default function ContactMe() {
               className={styles.child}
               target="_blank"
               href="https://www.tiktok.com/@ivanyaz"
-            >
+              rel="noopener noreferrer"
+            > 
               <i
                 className="fab fa-tiktok fa-2x"
                 style={{ marginLeft: "7px", marginRight: "7px" }}
@@ -40,6 +41,7 @@ export default function ContactMe() {
               style={{ marginLeft: "20px" }}
               target="_blank"
               href="https://www.instagram.com/ivanyaz/"
+              rel="noopener noreferrer"
             >
               <InstagramIcon className={styles.icons} />@<p>ivanyaz</p>
             </a>
@@ -49,6 +51,7 @@ export default function ContactMe() {
               className={styles.child}
               target="_blank"
               href="https://www.facebook.com/IvanDeJesusYanez"
+              rel="noopener noreferrer"
             >
               <FacebookIcon className={styles.icons} />
               <p>/IvanDeJesusYanez</p>
@@ -57,6 +60,7 @@ export default function ContactMe() {
               className={styles.child}
               target="_blank"
               href="https://t.me/VenezolanosEnAlemania"
+              rel="noopener noreferrer"
             >
               <TelegramIcon className={styles.icons} />
               <p>t.me/VenezolanosEnAlemania</p>
