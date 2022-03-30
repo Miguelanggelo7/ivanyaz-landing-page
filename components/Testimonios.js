@@ -12,7 +12,7 @@ export default function Testimonios() {
   const Carousel = makeCarousel(CarouselUI);
 
   return (
-    <div className={styles.container}>
+    <div className={styles.container} id="testimonios">
       <div className={styles.testCenter}>
         <Image src={testIcon} className={styles.icon} />
         <Carousel defaultWait={7000}>

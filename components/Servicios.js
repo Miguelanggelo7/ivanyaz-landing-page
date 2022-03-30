@@ -9,7 +9,7 @@ import posicionamiento from "../public/posicionamiento-image.png";
 
 export default function Servicios() {
   return (
-    <div className={styles.container}>
+    <div className={styles.container} id="servicios">
       <div className={styles.containerTitle}>
         <p className={styles.servicesTitle}>Servicios</p>
         <div className={styles.containerSubTitle}>

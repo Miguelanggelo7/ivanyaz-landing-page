@@ -6,7 +6,7 @@ import proyect3 from "../public/proyectos-image-3.jpg";
 
 export default function Proyects() {
   return (
-    <div className={styles.container}>
+    <div className={styles.container} id="portafolios">
       <p className={styles.title}>Proyectos</p>
       <div className={styles.subContainer}>
         <div className={styles.proyects}>

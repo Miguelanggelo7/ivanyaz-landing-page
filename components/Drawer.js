@@ -23,34 +23,42 @@ export default function Drawer({ open, onOpen, onClose, setOpen }) {
               <p className={styles.textItem}>Sobre mi</p>
             </ListItem>
           </LinkS>
-          <ListItem
-            button
-            onClick={() => setOpen(false)}
-            className={styles.item}
-          >
-            <p className={styles.textItem}>Servicios</p>
-          </ListItem>
-          <ListItem
-            button
-            onClick={() => setOpen(false)}
-            className={styles.item}
-          >
-            <p className={styles.textItem}>Portafolios</p>
-          </ListItem>
-          <ListItem
-            button
-            onClick={() => setOpen(false)}
-            className={styles.item}
-          >
-            <p className={styles.textItem}>Testimonios</p>
-          </ListItem>
-          <ListItem
-            button
-            onClick={() => setOpen(false)}
-            className={styles.item}
-          >
-            <p className={styles.textItem}>Mi equipo</p>
-          </ListItem>
+          <LinkS smooth={true} duration={1000} spy={true} exact='true' offset={-93} to="servicios">
+            <ListItem
+              button
+              onClick={() => setOpen(false)}
+              className={styles.item}
+            >
+              <p className={styles.textItem}>Servicios</p>
+            </ListItem>
+          </LinkS>
+          <LinkS smooth={true} duration={1000} spy={true} exact='true' offset={-190} to="portafolios">
+            <ListItem
+              button
+              onClick={() => setOpen(false)}
+              className={styles.item}
+            >
+              <p className={styles.textItem}>Portafolios</p>
+            </ListItem>
+          </LinkS>
+          <LinkS smooth={true} duration={1000} spy={true} exact='true' offset={-93} to="testimonios">
+            <ListItem
+              button
+              onClick={() => setOpen(false)}
+              className={styles.item}
+            >
+              <p className={styles.textItem}>Testimonios</p>
+            </ListItem>
+          </LinkS>
+          <LinkS smooth={true} duration={1000} spy={true} exact='true' offset={-93} to="miequipo">
+            <ListItem
+              button
+              onClick={() => setOpen(false)}
+              className={styles.item}
+            >
+              <p className={styles.textItem}>Mi equipo</p>
+            </ListItem>
+          </LinkS>
           <Divider style={{ margin: "20px" }} />
           <button className={styles.button} onClick={() => setOpen(false)}>
             Asesoría gratuita

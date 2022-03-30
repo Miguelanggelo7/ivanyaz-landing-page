@@ -7,7 +7,7 @@ import team4 from "../public/team-image-4.jpg";
 
 export default function Team() {
   return (
-    <div className={styles.container}>
+    <div className={styles.container} id="miequipo">
       <p className={styles.title}>El equipo</p>
       <div className={styles.membersContainer}>
         <div className={styles.member}>
