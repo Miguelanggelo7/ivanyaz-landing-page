@@ -6,9 +6,6 @@ import WhatsAppIcon from "@mui/icons-material/WhatsApp";
 export default function Banner() {
   return (
     <div className={styles.container}>
-      <div className={styles.imgdeIvan}>
-        <Image src={ivanImg} className={styles.ivan} />
-      </div>
       <div className={styles.containerText}>
         <p className={styles.text}>
           ¡<span className={styles.textSpan}>Posiciona tu negocio</span>

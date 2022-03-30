@@ -1,7 +1,7 @@
 .container {
   background-color: #ececec;
   width: 100%;
-  background-image: url("../public/bannerimg.jpg");
+  background-image: url("../public/banner2.png");
   height: 90vh;
   background-repeat: no-repeat;
   background-size: cover;
@@ -76,7 +76,8 @@
 
 @media (max-width: 1090px) {
   .container {
-    background-position: 10%;
+    background-position: 15%;
+    background-image: url("../public/banner3.png");
   }
 
   .imgdeIvan {

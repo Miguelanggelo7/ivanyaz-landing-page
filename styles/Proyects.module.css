@@ -29,9 +29,12 @@
 .proyects {
   background-color: #ffffff;
   width: fit-content;
+  transition: all .4s;
 }
 
 .proyects:hover {
+  cursor: pointer;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
 .proyectName {
