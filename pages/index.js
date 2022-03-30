@@ -23,7 +23,7 @@ export default function Home() {
         <Header />
         <Banner />
         <Services />
-        <AboutMe />
+        <AboutMe/>
         <Team />
         <Clients />
         <Proyects />

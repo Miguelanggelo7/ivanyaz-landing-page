@@ -4,7 +4,7 @@ import ivan from "../public/ivan-image-2.png";
 
 export default function AboutMe() {
   return (
-    <div className={styles.container}>
+    <div className={styles.container} id="sobremi">
       <div className={styles.contImg}>
         <Image src={ivan} className={styles.img} />
       </div>
