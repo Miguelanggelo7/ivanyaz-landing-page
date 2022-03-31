@@ -39,8 +39,6 @@
 
 .contFrase {
   background: #9908c9;
-  position: absolute;
-  right: 0;
   font-weight: 300;
   font-size: 14px;
   line-height: 17px;
@@ -48,6 +46,11 @@
   width: 500px;
   padding-left: 15px;
   padding-right: 15px;
+  margin: 15px
+}
+
+.steveFrase{
+  padding: 5px;
 }
 
 @media (max-width: 1200px) {

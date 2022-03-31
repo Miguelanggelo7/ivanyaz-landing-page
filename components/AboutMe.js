@@ -31,11 +31,11 @@ export default function AboutMe() {
           como comunicación digital. Hoy en día la era digital es una necesidad.
         </p>
         <div className={styles.contFrase}>
-          <p>
+          <p className={styles.steveFrase}>
             “El diseño no es solo lo que se ve o lo que se siente. Diseño es
             como funciona”
           </p>
-          <p style={{ fontWeight: "bold" }}>- Steve Jobs</p>
+          <p style={{ fontWeight: "bold", padding: "5px" }}>- Steve Jobs</p>
         </div>
       </div>
     </div>
