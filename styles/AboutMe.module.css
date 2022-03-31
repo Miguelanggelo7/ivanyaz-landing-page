@@ -9,6 +9,7 @@
 .contImg {
   width: 590px;
   margin-bottom: -6px;
+  width: 100%;
 }
 
 .contText {
@@ -53,12 +54,20 @@
   padding: 5px;
 }
 
-@media (max-width: 1200px) {
-  .container {
-    padding-bottom: 125px;
-  }
+@media (max-width: 1150px) {
+  .img,
+.contImg {
+  margin-top: 100px;
+  width: 50%;
+}
+.contFrase {
+  width: 300px;
+}
+}
+
+@media (max-width: 1035px) {
   .contFrase {
-    width: 255px;
+    width: 300px;
   }
   .contImg {
     display: none;
