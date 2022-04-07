@@ -5,6 +5,11 @@
   height: 90vh;
   background-repeat: no-repeat;
   background-size: cover;
+  -moz-background-size: 100% 100%; /*Firefox 3.6*/
+  -o-background-size: 100% 100%; /*opera*/
+  -webkit-background-size: 100% 100%; /*Safari*/
+  background-size: 100% 100%; /*estandar css3*/
+  
 }
 
 .imgdeIvan {
@@ -112,11 +117,5 @@
 @media (max-width: 360px) {
   .imgdeIvan {
     width: 100%;
-  }
-}
-
-@media (min-height: 675px) {
-  .container {
-    height: 600px;
   }
 }

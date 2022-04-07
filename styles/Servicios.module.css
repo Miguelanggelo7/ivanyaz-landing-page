@@ -1,8 +1,6 @@
 .container {
-  margin-top: -20px;
   background-color: #1e48ac;
   position: relative;
-  z-index: 100;
   padding-bottom: 1px;
 }
 
